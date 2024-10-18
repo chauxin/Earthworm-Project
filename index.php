@@ -96,7 +96,7 @@
                             <p class="card-text fs-5">Some quick example text to build on the card title and make up the
                                 bulk of the card's content.Some quick example text to build on the card title and make
                                 up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary text-center">关于</a>
+                            <a href="#Xie" class="btn btn-primary text-center">关于</a>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                             <p class="card-text fs-5">Some quick example text to build on the card title and make up the
                                 bulk of the card's content.Some quick example text to build on the card title and make
                                 up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">关于</a>
+                            <a href="#Lin" class="btn btn-primary">关于</a>
                         </div>
                     </div>
                 </div>

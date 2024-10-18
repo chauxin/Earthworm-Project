@@ -10,7 +10,7 @@ if (isset($_GET["action"]) && $_GET["action"] === "getpoint") {
     if (isset($_GET["ID"]) && $_GET["POINT"]) {
         $id = $_GET["ID"];
         $point = $_GET["POINT"];
-        $directory = __DIR__."\userInfor";
+        $directory = "__DIR__"."\userInfor";
         $filename = $directory . "\\" . $id;
         $txtname = $filename."\\".$id . ".txt";
 
@@ -26,7 +26,7 @@ if (isset($_GET["action"]) && $_GET["action"] === "getpoint") {
                 } else {
                     echo "数据已写入文件<br>"."ID: ". $id. "<br>". "Point". $point;}
             } else {
-                echo "目录创建失败。";
+                echo "目录创建失败。".$directory;
             }
         } else {
             echo "目录已创建<br>";
